@@ -1,0 +1,3 @@
+.grid-profile {
+  grid-template-rows: repeat(2, minmax(0px, 275px));
+}
