@@ -1,4 +1,3 @@
-import React from "react";
 import { ButtonPrimary } from "../button/ButtonPrimary";
 import logo from "../../assets/Logo EDTecnica.svg";
 
