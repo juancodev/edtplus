@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "../../assets/Logo EDTecnica.svg";
 
 const TypesOfStudies = () => {
@@ -7,20 +6,22 @@ const TypesOfStudies = () => {
       <section>
         <div className="typeofstudies-container">
           <div className="items-container mx-14 py-4">
-            <div className="pt-28 pb-20">
-              <div className="items-grid grid grid-cols-3 gap-0 divide-x divide-slate-300">
-                <div className="item px-9">
-                  <div className="image mb-3">
-                    <img src={logo} alt="" width={50} height={50} />
-                  </div>
-                  <h4 className="text-xl font-bold mb-1 text-slate-800">
-                    EDT Presential
-                  </h4>
-                  <p className="text-slate-500">
-                    Varios programas tech están disponibles para ti, desde
-                    marketing, diseño, programación para acceder a un mundo de
-                    oportunidades.
-                  </p>
+            <div className="pt-20 pb-20">
+              <div className="mb-20 max-w-1xl">
+                <h2 className="text-6xl font-bold mb-4 text-yellow-400">
+                  ¿Qué es educación{" "}
+                  <span className="text-blue-400 font-bold [-webkit-text-stroke:3px_#bae6fd]">
+                    STEAM
+                  </span>{" "}
+                  en EDTPlus?
+                </h2>
+              </div>
+              <div className="items-grid grid grid-cols-2 gap-0 divide-x divide-slate-300">
+                <div className="item px-9 h-[500px]">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.instagram.com/p/Cu5UhpjA37U/embed/"
+                  ></iframe>
                 </div>
                 <div className="item px-9">
                   <div className="image mb-3">
@@ -32,18 +33,6 @@ const TypesOfStudies = () => {
                   <p className="text-slate-500">
                     Un programa educativo para adolescentes a través del cual
                     puedan desarrollar habilidades tech.
-                  </p>
-                </div>
-                <div className="item px-9">
-                  <div className="image mb-3">
-                    <img src={logo} alt="" width={50} height={50} />
-                  </div>
-                  <h4 className="text-xl font-bold mb-1 text-slate-800">
-                    EDT Online
-                  </h4>
-                  <p className="text-slate-500">
-                    Carreras y cursos 100% online para quienes quieren estudiar
-                    desde cualquier parte del mundo.
                   </p>
                 </div>
               </div>

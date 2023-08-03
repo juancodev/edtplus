@@ -1,5 +1,5 @@
 import { ButtonPrimary } from "../button/ButtonPrimary";
-import logo from "../../assets/Logo EDTecnica.svg";
+import logo from "./../../assets/Logo EDTecnica.svg";
 
 const Header = () => {
   return (

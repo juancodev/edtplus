@@ -10,7 +10,7 @@ const Hero = () => {
           <div className="hero-sections mx-14 py-4 px-6">
             <div className="pt-40 pb-20">
               <div className="hero-content flex">
-                <div className="content text-yellow-300 w-1/2">
+                <div className="content text-white w-1/2">
                   <h1 className="text-5xl font-bold mb-6">La Escuela PLUS</h1>
                   <p className="paragraph text-xl font-semibold mb-6">
                     Prepara a tus chamos para el futuro profesional
