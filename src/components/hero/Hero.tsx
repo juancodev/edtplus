@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <section>
         {/* <div className="hero-container rounded-bl-[100px] bg-[#2D59F8]"> */}
-        <div className="hero-container rounded-bl-[100px] bg-gradient-to-t from-blue-700 via-blue-600 to-blue-400">
+        <div className="hero-container rounded-bl-[100px] bg-gradient-to-t from-blue-700 via-[#0072ce] to-blue-400">
           <div className="hero-sections mx-14 py-4 px-6">
             <div className="pt-40 pb-20">
               <div className="hero-content flex">

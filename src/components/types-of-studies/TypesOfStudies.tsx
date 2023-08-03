@@ -1,4 +1,4 @@
-import logo from "../../assets/Logo EDTecnica.svg";
+import logo from "../../assets/ICONO-EDTplus.png";
 
 const TypesOfStudies = () => {
   return (
@@ -8,9 +8,9 @@ const TypesOfStudies = () => {
           <div className="items-container mx-14 py-4">
             <div className="pt-20 pb-20">
               <div className="mb-20 max-w-1xl">
-                <h2 className="text-6xl font-bold mb-4 text-yellow-400">
+                <h2 className="text-6xl font-bold mb-4 text-[#ffcd00]">
                   ¿Qué es educación{" "}
-                  <span className="text-blue-400 font-bold [-webkit-text-stroke:3px_#bae6fd]">
+                  <span className="text-[#0072ce] font-bold [-webkit-text-stroke:3px_#bae6fd]">
                     STEAM
                   </span>{" "}
                   en EDTPlus?

@@ -1,5 +1,5 @@
 import { ButtonPrimary } from "../button/ButtonPrimary";
-import logo from "./../../assets/Logo EDTecnica.svg";
+import logo from "./../../assets/EDTPLUS.png";
 
 const Header = () => {
   return (
@@ -8,7 +8,7 @@ const Header = () => {
         <div className="flex items-center justify-between px-6">
           <div className="logo">
             <a href="#">
-              <img src={logo} alt="" width={50} height={50} />
+              <img src={logo} alt="" width={140} height={50} />
             </a>
           </div>
           <div className="button">
