@@ -1,10 +1,10 @@
 import logo from "../../assets/ICONO-EDTplus.png";
 
-const TypesOfStudies = () => {
+const Methodology = () => {
   return (
     <>
       <section>
-        <div className="typeofstudies-container">
+        <div className="methodology-container">
           <div className="items-container mx-14 py-4">
             <div className="pt-20 pb-20">
               <div className="mb-20 max-w-1xl">
@@ -44,4 +44,4 @@ const TypesOfStudies = () => {
   );
 };
 
-export { TypesOfStudies };
+export { Methodology };

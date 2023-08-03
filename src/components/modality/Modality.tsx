@@ -48,7 +48,7 @@ const Modality = () => {
               <div className="pt-20 pb-20">
                 <div className="mx-auto relative text-left text-white">
                   <div className="mb-20 max-w-2xl">
-                    <h2 className="text-5xl font-bold mb-4">
+                    <h2 className="text-6xl font-bold mb-4">
                       Plan de Estudios
                     </h2>
                     <p className="text-xl font-light mb-8">
@@ -59,11 +59,11 @@ const Modality = () => {
                   <div className="grid grid-cols-2 grid-rows-8 gap-6">
                     <div className="h-1/2 flex flex-col px-6 py-5">
                       <div className="list h-full">
-                        <div className="study-plan">
-                          <h4 className="text-semibold">
+                        <div className="study-plan flex flex-col justify-evenly h-full">
+                          <h4 className="text-semibold text-3xl">
                             Fundamentos de la programación y robótica.
                           </h4>
-                          <p>
+                          <p className="">
                             Lorem ipsum dolor sit, amet consectetur adipisicing
                             elit. Sapiente recusandae ipsam temporibus!
                           </p>
@@ -88,21 +88,31 @@ const Modality = () => {
                         />
                       </div>
                     </div>
-                    <div className="study-plan">
-                      <h4 className="text-semibold">
-                        Programación con Scratch.
-                      </h4>
-                      <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Sapiente recusandae ipsam temporibus!
-                      </p>
+                    <div className="h-1/2 flex flex-col px-6 py-5">
+                      <div className="list h-full">
+                        <div className="study-plan flex flex-col justify-evenly h-full">
+                          <h4 className="text-semibold text-3xl">
+                            Programación con Scratch.
+                          </h4>
+                          <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Sapiente recusandae ipsam temporibus!
+                          </p>
+                        </div>
+                      </div>
                     </div>
-                    <div className="study-plan">
-                      <h4 className="text-semibold">Programación con C++.</h4>
-                      <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Sapiente recusandae ipsam temporibus!
-                      </p>
+                    <div className="h-1/2 flex flex-col px-6 py-5">
+                      <div className="list h-full">
+                        <div className="study-plan flex flex-col justify-evenly h-full">
+                          <h4 className="text-semibold text-3xl">
+                            Programación con C++.
+                          </h4>
+                          <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Sapiente recusandae ipsam temporibus!
+                          </p>
+                        </div>
+                      </div>
                     </div>
                     <div className="container-online h-3/5 flex flex-col px-6 py-5">
                       <div className="photo mb-4 h-full">
@@ -122,23 +132,31 @@ const Modality = () => {
                         />
                       </div>
                     </div>
-                    <div className="study-plan">
-                      <h4 className="text-semibold">
-                        Programación con Python.
-                      </h4>
-                      <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Sapiente recusandae ipsam temporibus!
-                      </p>
+                    <div className="h-1/2 flex flex-col px-6 py-5">
+                      <div className="list h-full">
+                        <div className="study-plan flex flex-col justify-evenly h-full">
+                          <h4 className="text-semibold text-3xl">
+                            Programación con Python.
+                          </h4>
+                          <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Sapiente recusandae ipsam temporibus!
+                          </p>
+                        </div>
+                      </div>
                     </div>
-                    <div className="study-plan">
-                      <h4 className="text-semibold">
-                        Mecánica y electrónica detrás de la robótica.
-                      </h4>
-                      <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Sapiente recusandae ipsam temporibus!
-                      </p>
+                    <div className="h-1/2 flex flex-col px-6 py-5">
+                      <div className="list h-full">
+                        <div className="study-plan flex flex-col justify-evenly h-full">
+                          <h4 className="text-semibold text-3xl">
+                            Mecánica y electrónica detrás de la robótica.
+                          </h4>
+                          <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Sapiente recusandae ipsam temporibus!
+                          </p>
+                        </div>
+                      </div>
                     </div>
                     <div className="container-online h-3/5 flex flex-col px-6 py-5">
                       <div className="photo mb-4 h-full">
@@ -158,21 +176,31 @@ const Modality = () => {
                         />
                       </div>
                     </div>
-                    <div className="study-plan">
-                      <h4 className="text-semibold">Robótica I Ensamblado.</h4>
-                      <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Sapiente recusandae ipsam temporibus!
-                      </p>
+                    <div className="h-1/2 flex flex-col px-6 py-5">
+                      <div className="list h-full">
+                        <div className="study-plan flex flex-col justify-evenly h-full">
+                          <h4 className="text-semibold text-3xl">
+                            Robótica I Ensamblado.
+                          </h4>
+                          <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Sapiente recusandae ipsam temporibus!
+                          </p>
+                        </div>
+                      </div>
                     </div>
-                    <div className="study-plan">
-                      <h4 className="text-semibold">
-                        Robótica II Funcionamiento.
-                      </h4>
-                      <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Sapiente recusandae ipsam temporibus!
-                      </p>
+                    <div className="h-1/2 flex flex-col px-6 py-5">
+                      <div className="list h-full">
+                        <div className="study-plan flex flex-col justify-evenly h-full">
+                          <h4 className="text-semibold text-3xl">
+                            Robótica II Funcionamiento.
+                          </h4>
+                          <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Sapiente recusandae ipsam temporibus!
+                          </p>
+                        </div>
+                      </div>
                     </div>
                     <div className="container-online h-3/5 flex flex-col px-6 py-5">
                       <div className="photo mb-4 h-full">
@@ -192,14 +220,18 @@ const Modality = () => {
                         />
                       </div>
                     </div>
-                    <div className="study-plan">
-                      <h4 className="text-semibold">
-                        Todo mientras nos divertimos y la pasamos increíble.
-                      </h4>
-                      <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Sapiente recusandae ipsam temporibus!
-                      </p>
+                    <div className="h-1/2 flex flex-col px-6 py-5">
+                      <div className="list h-full">
+                        <div className="study-plan flex flex-col justify-evenly h-full">
+                          <h4 className="text-semibold text-3xl">
+                            Todo mientras nos divertimos y la pasamos increíble.
+                          </h4>
+                          <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Sapiente recusandae ipsam temporibus!
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
