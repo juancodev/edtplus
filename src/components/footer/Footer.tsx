@@ -1,6 +1,5 @@
-import React from "react";
 import ilustratorImg from "../../assets/hero-illustration.svg";
-import logo from "../../assets/Logo EDTecnica.svg";
+import logo from "../../assets/ICONO-EDTplus.png";
 const Footer = () => {
   return (
     <>
@@ -19,7 +18,7 @@ const Footer = () => {
             <div className="footer-block grid grid-cols-10 py-8 rounded-tt border-t border-slate-700">
               <div className="logo">
                 <a href="#">
-                  <img src={logo} width={50} height={50} alt="" />
+                  <img src={logo} width={70} height={70} alt="" />
                 </a>
               </div>
               <div className="col-span-2 text-sm">

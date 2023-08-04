@@ -16,7 +16,7 @@ const Modality = () => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 274 304"
-            className="w-[inherit] absolute top-[28%]"
+            className="w-[inherit] absolute top-[31%]"
           >
             <path
               fill="#fff1"
@@ -26,7 +26,7 @@ const Modality = () => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 274 304"
-            className="w-[inherit] absolute top-[56%]"
+            className="w-[inherit] absolute top-[62%]"
           >
             <path
               fill="#fff1"
@@ -35,8 +35,8 @@ const Modality = () => {
           </svg>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 274 304"
-            className="w-[inherit] absolute top-[84%]"
+            viewBox="0 0 274 85"
+            className="w-[inherit] absolute top-[93%]"
           >
             <path
               fill="#fff1"
@@ -57,8 +57,8 @@ const Modality = () => {
                     </p>
                   </div>
                   <div className="grid grid-cols-2 grid-rows-8 gap-6">
-                    <div className="h-1/2 flex flex-col px-6 py-5">
-                      <div className="list h-full">
+                    <div className="h-full flex flex-col justify-center px-6 py-5">
+                      <div className="list h-1/2">
                         <div className="study-plan flex flex-col justify-evenly h-full">
                           <h4 className="text-semibold text-3xl">
                             Fundamentos de la programación y robótica.
@@ -70,26 +70,26 @@ const Modality = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="container-online h-3/5 px-6 py-5">
+                    <div className="container-online h-full px-6 py-5">
                       <div className="photo mb-4 h-full">
                         <img
-                          className="w-full rounded-lg h-full"
+                          className="w-full rounded-lg h-full object-contain"
                           src="https://res.cloudinary.com/juancodev/image/upload/v1690992972/robot_arduino_nt2yym.png"
                           alt=""
                         />
                       </div>
                     </div>
-                    <div className="container-online h-3/5 flex flex-col px-6 py-5">
+                    <div className="container-online h-full flex flex-col px-6 py-5">
                       <div className="photo mb-4 h-full">
                         <img
-                          className="w-full rounded-lg h-full"
+                          className="w-full rounded-lg h-full object-contain"
                           src="https://res.cloudinary.com/juancodev/image/upload/v1690993112/children_robot_one_kmenwp.png"
                           alt=""
                         />
                       </div>
                     </div>
-                    <div className="h-1/2 flex flex-col px-6 py-5">
-                      <div className="list h-full">
+                    <div className="h-full flex flex-col justify-center px-6 py-5">
+                      <div className="list h-1/2">
                         <div className="study-plan flex flex-col justify-evenly h-full">
                           <h4 className="text-semibold text-3xl">
                             Programación con Scratch.
@@ -101,8 +101,8 @@ const Modality = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="h-1/2 flex flex-col px-6 py-5">
-                      <div className="list h-full">
+                    <div className="h-full flex flex-col justify-center px-6 py-5">
+                      <div className="list h-1/2">
                         <div className="study-plan flex flex-col justify-evenly h-full">
                           <h4 className="text-semibold text-3xl">
                             Programación con C++.
@@ -114,26 +114,26 @@ const Modality = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="container-online h-3/5 flex flex-col px-6 py-5">
+                    <div className="container-online h-full flex flex-col px-6 py-5">
                       <div className="photo mb-4 h-full">
                         <img
-                          className="w-full rounded-lg h-full"
+                          className="w-full rounded-lg h-full object-contain"
                           src="https://res.cloudinary.com/juancodev/image/upload/v1690992878/children_robot_dyhvjj.png"
                           alt=""
                         />
                       </div>
                     </div>
-                    <div className="container-online h-3/5 flex flex-col px-6 py-5">
+                    <div className="container-online h-full flex flex-col px-6 py-5">
                       <div className="photo mb-4 h-full">
                         <img
-                          className="w-full rounded-lg h-full"
+                          className="w-full rounded-lg h-full object-contain"
                           src="https://res.cloudinary.com/juancodev/image/upload/v1690992870/children_robot_two_kpetia.png"
                           alt=""
                         />
                       </div>
                     </div>
-                    <div className="h-1/2 flex flex-col px-6 py-5">
-                      <div className="list h-full">
+                    <div className="h-full flex flex-col justify-center px-6 py-5">
+                      <div className="list h-1/2">
                         <div className="study-plan flex flex-col justify-evenly h-full">
                           <h4 className="text-semibold text-3xl">
                             Programación con Python.
@@ -145,8 +145,8 @@ const Modality = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="h-1/2 flex flex-col px-6 py-5">
-                      <div className="list h-full">
+                    <div className="h-full flex flex-col justify-center px-6 py-5">
+                      <div className="list h-1/2">
                         <div className="study-plan flex flex-col justify-evenly h-full">
                           <h4 className="text-semibold text-3xl">
                             Mecánica y electrónica detrás de la robótica.
@@ -158,26 +158,26 @@ const Modality = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="container-online h-3/5 flex flex-col px-6 py-5">
+                    <div className="container-online h-full flex flex-col px-6 py-5">
                       <div className="photo mb-4 h-full">
                         <img
-                          className="w-full rounded-lg h-full"
+                          className="w-full rounded-lg h-full object-contain"
                           src="https://res.cloudinary.com/juancodev/image/upload/v1690993112/children_robot_three_mnocck.png"
                           alt=""
                         />
                       </div>
                     </div>
-                    <div className="container-online h-3/5 flex flex-col px-6 py-5">
+                    <div className="container-online h-full flex flex-col px-6 py-5">
                       <div className="photo mb-4 h-full">
                         <img
-                          className="w-full rounded-lg h-full"
+                          className="w-full rounded-lg h-full object-contain"
                           src="https://res.cloudinary.com/juancodev/image/upload/v1690993112/children_robot_one_kmenwp.png"
                           alt=""
                         />
                       </div>
                     </div>
-                    <div className="h-1/2 flex flex-col px-6 py-5">
-                      <div className="list h-full">
+                    <div className="h-full flex flex-col justify-center px-6 py-5">
+                      <div className="list h-1/2">
                         <div className="study-plan flex flex-col justify-evenly h-full">
                           <h4 className="text-semibold text-3xl">
                             Robótica I Ensamblado.
@@ -189,8 +189,8 @@ const Modality = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="h-1/2 flex flex-col px-6 py-5">
-                      <div className="list h-full">
+                    <div className="h-full flex flex-col justify-center px-6 py-5">
+                      <div className="list h-1/2">
                         <div className="study-plan flex flex-col justify-evenly h-full">
                           <h4 className="text-semibold text-3xl">
                             Robótica II Funcionamiento.
@@ -202,26 +202,26 @@ const Modality = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="container-online h-3/5 flex flex-col px-6 py-5">
+                    <div className="container-online h-full flex flex-col px-6 py-5">
                       <div className="photo mb-4 h-full">
                         <img
-                          className="w-full rounded-lg h-full"
+                          className="w-full rounded-lg h-full object-contain"
                           src="https://res.cloudinary.com/juancodev/image/upload/v1690992870/robot_dysvht.png"
                           alt=""
                         />
                       </div>
                     </div>
-                    <div className="container-online h-3/5 flex flex-col px-6 py-5">
+                    <div className="container-online h-full flex flex-col px-6 py-5">
                       <div className="photo mb-4 h-full">
                         <img
-                          className="w-full rounded-lg h-full"
+                          className="w-full rounded-lg h-full object-contain"
                           src="https://res.cloudinary.com/juancodev/image/upload/v1690993112/children_robot_three_mnocck.png"
                           alt=""
                         />
                       </div>
                     </div>
-                    <div className="h-1/2 flex flex-col px-6 py-5">
-                      <div className="list h-full">
+                    <div className="h-full flex flex-col justify-center px-6 py-5">
+                      <div className="list h-1/2">
                         <div className="study-plan flex flex-col justify-evenly h-full">
                           <h4 className="text-semibold text-3xl">
                             Todo mientras nos divertimos y la pasamos increíble.
