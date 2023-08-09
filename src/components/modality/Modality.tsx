@@ -48,9 +48,7 @@ const Modality = () => {
               <div className="pt-20 pb-20">
                 <div className="mx-auto relative text-left text-white">
                   <div className="mb-20 max-w-2xl">
-                    <h2 className="text-6xl font-bold mb-4">
-                      Plan de Estudios
-                    </h2>
+                    <h2 className="text-6xl font-bold mb-4">¿Cómo Funciona?</h2>
                     <p className="text-xl font-light mb-8">
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                       Magni, ipsam animi harum incidunt quod nisi.

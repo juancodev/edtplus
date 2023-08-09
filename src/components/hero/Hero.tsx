@@ -16,9 +16,9 @@ const Hero = () => {
                     Prepara a tus chamos para el futuro profesional
                   </p>
                   <p className="paragraph text-xl w-11/12 font-light mb-8">
-                    Inspira una vida de aprendizaje y descubrimiento con nuestro
-                    programa educativo y divertido en áreas como programación,
-                    robótica e inglés.
+                    Permitiendo que descubran un universo de conocimiento y
+                    habilidades en programación, robótica, IA y tecnologías
+                    emergentes.
                   </p>
                   <div className="button">
                     <ButtonPrimary

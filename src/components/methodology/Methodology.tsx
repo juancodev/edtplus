@@ -1,4 +1,5 @@
-import logo from "../../assets/ICONO-EDTplus.png";
+import logo from "@assets/ICONO-EDTplus.png";
+import edtplusSteam from "@assets/steam-edtecnica.mp4";
 
 const Methodology = () => {
   return (
@@ -8,32 +9,61 @@ const Methodology = () => {
           <div className="items-container mx-14 py-4">
             <div className="pt-20 pb-20">
               <div className="mb-20 max-w-1xl">
-                <h2 className="text-6xl font-bold mb-4 text-[#ffcd00]">
-                  ¿Qué es educación{" "}
-                  <span className="text-[#0072ce] font-bold [-webkit-text-stroke:3px_#bae6fd]">
-                    STEAM
-                  </span>{" "}
-                  en EDTPlus?
-                </h2>
-              </div>
-              <div className="items-grid grid grid-cols-2 gap-0 divide-x divide-slate-300">
-                <div className="item px-9 h-[500px]">
-                  <iframe
-                    className="w-full h-full"
-                    src="https://www.instagram.com/p/Cu5UhpjA37U/embed/"
-                  ></iframe>
-                </div>
-                <div className="item px-9">
-                  <div className="image mb-3">
-                    <img src={logo} alt="" width={50} height={50} />
+                <div className="items-grid grid grid-cols-2 gap-0 divide-x divide-slate-300">
+                  <div className="item px-9 h-[500px] w-full">
+                    <video
+                      className="w-full h-full"
+                      src={edtplusSteam}
+                      autoPlay
+                      loop
+                      controls
+                    ></video>
                   </div>
-                  <h4 className="text-xl font-bold mb-1 text-slate-800">
-                    EDT Plus
-                  </h4>
-                  <p className="text-slate-500">
-                    Un programa educativo para adolescentes a través del cual
-                    puedan desarrollar habilidades tech.
-                  </p>
+                  <div className="w-full">
+                    <h2 className="text-3xl font-bold mb-4 text-slate-700 text-center">
+                      A tus hijos les encantará
+                    </h2>
+                    <div className="grid grid-rows-3">
+                      <div className="item px-9">
+                        <div className="image mb-3">
+                          <img src={logo} alt="" width={50} height={50} />
+                        </div>
+                        <h4 className="text-xl font-bold mb-1 text-slate-800">
+                          Clases Prácticas
+                        </h4>
+                        <p className="text-slate-500">
+                          Nada de clases solo en videos interminables. Tendrá
+                          clases en pequeños video animados, sesiones en vivo
+                          con un profesor para él o ella y recursos para tener
+                          prácticas continuas.
+                        </p>
+                      </div>
+                      <div className="item px-9">
+                        <div className="image mb-3">
+                          <img src={logo} alt="" width={50} height={50} />
+                        </div>
+                        <h4 className="text-xl font-bold mb-1 text-slate-800">
+                          Contenido Original
+                        </h4>
+                        <p className="text-slate-500">
+                          Nos encargamos de crear contenido basado en datos, es
+                          decir contenido que funciona de manera constante.
+                        </p>
+                      </div>
+                      <div className="item px-9">
+                        <div className="image mb-3">
+                          <img src={logo} alt="" width={50} height={50} />
+                        </div>
+                        <h4 className="text-xl font-bold mb-1 text-slate-800">
+                          Sentirás que es un juego
+                        </h4>
+                        <p className="text-slate-500">
+                          Aquí está la clave del aprendizaje efectivo. Debe
+                          pasarla bien, mientras aprende con otros compañeros.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

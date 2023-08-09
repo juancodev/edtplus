@@ -1,5 +1,3 @@
-import React from "react";
-
 type Layout = {
   children: JSX.Element[] | JSX.Element;
 };
