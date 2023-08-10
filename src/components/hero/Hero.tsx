@@ -1,4 +1,4 @@
-import { ButtonPrimary } from "../button/ButtonPrimary";
+import { BtnHero } from "../button/ButtonPrimary";
 import ilustratorImg from "../../assets/hero-illustration.svg";
 
 const Hero = () => {
@@ -20,21 +20,16 @@ const Hero = () => {
                     habilidades en programación, robótica, IA y tecnologías
                     emergentes.
                   </p>
-                  <div className="button">
-                    <ButtonPrimary
-                      title={`Iniciar Sesión`}
-                      link="https://colegios.edtecnica.info/login"
-                      backgroundColor="bg-slate-800"
-                      style={
-                        "text-white font-semibold py-2 px-4 rounded-full mr-4"
-                      }
-                    />
-                    <ButtonPrimary
-                      title="¡Regístrate ahora!"
+                  <div className="button flex justify-center">
+                    <BtnHero />
+                    {/* <ButtonPrimary
+                      title="¡Regístrate Gratis!"
                       link="https://colegios.edtecnica.info/signup"
-                      backgroundColor="bg-blue-400"
-                      style={"text-white font-bold py-2 px-4 rounded-full mr-4"}
-                    />
+                      backgroundColor="bg-[#ffcd00]"
+                      style={
+                        "w-3/5 text-[#0072ce] font-bold py-2 px-4 rounded-full"
+                      }
+                    /> */}
                   </div>
                 </div>
                 <div className="image mx-auto absolute left-[650px]">

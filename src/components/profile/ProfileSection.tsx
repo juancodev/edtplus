@@ -9,16 +9,15 @@ const ProfileSection = () => {
     <>
       <section className="mt-20">
         <div className="max-w-full mx-auto">
-          {/* <div className="rounded-tl-[100px] bg-gradient-to-t from-blue-700 via-[#0072ce] to-blue-400"> */}
           <div className="rounded-tl-[100px] bg-neutral-100">
             <div className="mx-14 px-6">
               <div className="pt-20 pb-20">
                 <div className="mx-auto relative text-left text-slate-800">
                   <div className="mb-20 max-w-3xl">
-                    <h2 className="text-6xl text-[#ffcd00] font-bold mb-4">
-                      ¿Para quién es EDTPlus?
+                    <h2 className="text-4xl text-slate-700 font-bold mb-4">
+                      Las etapas del programa ¿En cuál se encuentra tu hij@?
                     </h2>
-                    <p className="text-lg text-[#ffcd00] font-light mb-8">
+                    <p className="text-lg text-slate-700 font-light mb-8">
                       Miles de estudiantes, profesionales y emprendedores se han
                       preparado con nuestros cursos y mejoraron sus ingresos,
                       consiguieron su primer trabajo o crearon su propio
