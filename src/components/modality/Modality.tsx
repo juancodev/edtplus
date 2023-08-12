@@ -1,3 +1,14 @@
+import {
+  Card,
+  CardBody,
+  CardFooter,
+  Image,
+  Stack,
+  Heading,
+  Text,
+  Button,
+} from "@chakra-ui/react";
+
 const Modality = () => {
   return (
     <>
@@ -30,6 +41,36 @@ const Modality = () => {
                   <div className="mb-20 max-w-2xl">
                     <h2 className="text-6xl font-bold mb-4">¿Cómo Funciona?</h2>
                   </div>
+                  <Card
+                    direction={{ base: "column", sm: "row" }}
+                    overflow="hidden"
+                    variant="outline"
+                  >
+                    <Image
+                      objectFit="cover"
+                      maxW={{ base: "100%", sm: "25%" }}
+                      src="https://res.cloudinary.com/juancodev/image/upload/v1690992972/robot_arduino_nt2yym.png"
+                      alt="Caffe Latte"
+                    />
+
+                    <Stack>
+                      <CardBody>
+                        <Heading size="md">The perfect latte</Heading>
+
+                        <Text py="2">
+                          Caffè latte is a coffee beverage of Italian origin
+                          made with espresso and steamed milk.
+                        </Text>
+                      </CardBody>
+
+                      <CardFooter>
+                        <Button variant="solid" colorScheme="blue">
+                          Buy Latte
+                        </Button>
+                      </CardFooter>
+                    </Stack>
+                  </Card>
+
                   <div className="grid grid-cols-2 grid-rows-3 gap-6">
                     <div className="h-full flex flex-col justify-center px-6 py-5">
                       <div className="list h-1/2">

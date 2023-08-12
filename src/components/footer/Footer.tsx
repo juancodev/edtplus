@@ -26,22 +26,22 @@ const Footer = () => {
                   Acerca de la empresa
                 </h6>
                 <ul className="text-slate-500">
-                  <li className="mb-2">
+                  <li className="mb-2 hover:text-[#ffcd00cc] hover:font-light">
                     <a href="#">¿Qué es EDTecnica?</a>
                   </li>
-                  <li className="mb-2">
+                  <li className="mb-2 hover:text-[#ffcd00cc] hover:font-light">
                     <a href="#">El equipo</a>
                   </li>
-                  <li className="mb-2">
+                  <li className="mb-2 hover:text-[#ffcd00cc] hover:font-light">
                     <a href="#">Los profesores</a>
                   </li>
-                  <li className="mb-2">
+                  <li className="mb-2 hover:text-[#ffcd00cc] hover:font-light">
                     <a href="#">Enunciado de misión</a>
                   </li>
-                  <li className="mb-2">
+                  <li className="mb-2 hover:text-[#ffcd00cc] hover:font-light">
                     <a href="#">Marca y logotipo</a>
                   </li>
-                  <li className="mb-2">
+                  <li className="mb-2 hover:text-[#ffcd00cc] hover:font-light">
                     <a href="#">Cultura</a>
                   </li>
                 </ul>
@@ -51,19 +51,19 @@ const Footer = () => {
                   Conecta con EDTecnica
                 </h6>
                 <ul className="text-slate-500">
-                  <li className="mb-2">
+                  <li className="mb-2 hover:text-[#ffcd00cc] hover:font-light">
                     <a href="#">Soporte al cliente</a>
                   </li>
-                  <li className="mb-2">
+                  <li className="mb-2 hover:text-[#ffcd00cc] hover:font-light">
                     <a href="#">Políticas de privacidad</a>
                   </li>
-                  <li className="mb-2">
+                  <li className="mb-2 hover:text-[#ffcd00cc] hover:font-light">
                     <a href="#">Terminos y condiciones</a>
                   </li>
-                  <li className="mb-2">
+                  <li className="mb-2 hover:text-[#ffcd00cc] hover:font-light">
                     <a href="#">Política de reembolsos</a>
                   </li>
-                  <li className="mb-2">
+                  <li className="mb-2 hover:text-[#ffcd00cc] hover:font-light">
                     <a href="#">Servicios para colegios y universidades</a>
                   </li>
                 </ul>
@@ -73,16 +73,16 @@ const Footer = () => {
                   Nuestros productos
                 </h6>
                 <ul className="text-slate-500">
-                  <li className="mb-2">
+                  <li className="mb-2 hover:text-[#ffcd00cc] hover:font-light">
                     <a href="#">Servicios para empresas</a>
                   </li>
-                  <li className="mb-2">
+                  <li className="mb-2 hover:text-[#ffcd00cc] hover:font-light">
                     <a href="#">Canjea cupones</a>
                   </li>
-                  <li className="mb-2">
+                  <li className="mb-2 hover:text-[#ffcd00cc] hover:font-light">
                     <a href="#">Regala cursos</a>
                   </li>
-                  <li className="mb-2">
+                  <li className="mb-2 hover:text-[#ffcd00cc] hover:font-light">
                     <a href="#">Consigue empleo con nosotros</a>
                   </li>
                 </ul>
@@ -90,19 +90,19 @@ const Footer = () => {
               <div className="col-span-2 text-sm">
                 <h6 className="text-white font-bold mb-3">Recursos gratis</h6>
                 <ul className="text-slate-500">
-                  <li className="mb-2">
+                  <li className="mb-2 hover:text-[#ffcd00cc] hover:font-light">
                     <a href="#">Cursos gratis</a>
                   </li>
-                  <li className="mb-2">
+                  <li className="mb-2 hover:text-[#ffcd00cc] hover:font-light">
                     <a href="#">Blog</a>
                   </li>
-                  <li className="mb-2">
+                  <li className="mb-2 hover:text-[#ffcd00cc] hover:font-light">
                     <a href="#">Master Class</a>
                   </li>
-                  <li className="mb-2">
+                  <li className="mb-2 hover:text-[#ffcd00cc] hover:font-light">
                     <a href="#">Comunidad</a>
                   </li>
-                  <li className="mb-2">
+                  <li className="mb-2 hover:text-[#ffcd00cc] hover:font-light">
                     <a href="#">EDTecnica</a>
                   </li>
                 </ul>

@@ -14,7 +14,7 @@ const ProfileSection = () => {
               <div className="pt-20 pb-20">
                 <div className="mx-auto relative text-left text-slate-800">
                   <div className="mb-20 max-w-3xl">
-                    <h2 className="text-4xl text-slate-700 font-bold mb-4">
+                    <h2 className="text-4xl text-slate-800 font-bold mb-4">
                       Las etapas del programa ¿En cuál se encuentra tu hij@?
                     </h2>
                     <p className="text-lg text-slate-700 font-light mb-8">

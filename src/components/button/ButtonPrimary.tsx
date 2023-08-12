@@ -30,7 +30,7 @@ const ButtonPrimary = ({
 const BtnHero = (): JSX.Element => {
   return (
     <>
-      <div className="sp">
+      <div className="sp" onClick={() => console.log("click")}>
         <button className="sparkle-button">
           <span className="spark"></span>
 

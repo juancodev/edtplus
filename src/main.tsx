@@ -1,12 +1,15 @@
 import ReactDOM from "react-dom/client";
+import { ChakraProvider } from "@chakra-ui/react";
 import App from "./App.tsx";
 import { Layout } from "./layout/Layout.tsx";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <>
-    <Layout>
-      <App />
-    </Layout>
+    <ChakraProvider>
+      <Layout>
+        <App />
+      </Layout>
+    </ChakraProvider>
   </>
 );

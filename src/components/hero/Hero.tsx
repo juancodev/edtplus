@@ -22,14 +22,6 @@ const Hero = () => {
                   </p>
                   <div className="button flex justify-center">
                     <BtnHero />
-                    {/* <ButtonPrimary
-                      title="¡Regístrate Gratis!"
-                      link="https://colegios.edtecnica.info/signup"
-                      backgroundColor="bg-[#ffcd00]"
-                      style={
-                        "w-3/5 text-[#0072ce] font-bold py-2 px-4 rounded-full"
-                      }
-                    /> */}
                   </div>
                 </div>
                 <div className="image mx-auto absolute left-[650px]">
