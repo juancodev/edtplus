@@ -21,10 +21,10 @@ const Hero = () => {
                     emergentes.
                   </p>
                   <div className="button flex justify-center">
-                    <BtnHero />
+                    <BtnHero title="Regístrate Gratis" />
                   </div>
                 </div>
-                <div className="image mx-auto absolute left-[650px]">
+                <div className="image mx-auto absolute left-[650px] full-screen:left-[750px]">
                   <div className="relative mx-auto">
                     <img
                       className="absolute bottom-[30%] z-10 mix-blend-lighten"
