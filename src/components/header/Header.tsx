@@ -1,5 +1,4 @@
-import { ButtonPrimary } from "../button/ButtonPrimary";
-import logo from "./../../assets/EDTPLUS.png";
+import logo from "@assets/EDTPLUS.png";
 
 const Header = () => {
   return (
@@ -10,14 +9,6 @@ const Header = () => {
             <a href="#">
               <img src={logo} alt="" width={140} height={50} />
             </a>
-          </div>
-          <div className="button">
-            <ButtonPrimary
-              title={`Soy Estudiante`}
-              link="https://edtecnica.info/"
-              backgroundColor="bg-slate-800"
-              style={"text-white py-2 px-4 rounded-full mr-4"}
-            />
           </div>
         </div>
       </header>
