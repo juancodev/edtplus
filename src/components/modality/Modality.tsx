@@ -34,7 +34,7 @@ const Modality = () => {
                               alt=""
                             />
                           </div>
-                          <div className="flex flex-col items-center justify-center gap-12 px-2 py-8 dark:bg-slate-800">
+                          <div className="h-full flex flex-col items-center justify-center gap-12 px-2 py-8 dark:bg-slate-800">
                             <h3 className="mb-3 text-2xl font-bold text-[#0072ce]">
                               Modalidad Presencial
                             </h3>
@@ -46,14 +46,14 @@ const Modality = () => {
                           </div>
                         </div>
                         <div className="flex flex-col overflow-hidden rounded-md hover:-translate-y-6 hover:duration-500">
-                          <div className="h-1/2 w-full px-2 py-8 space-y-4 bg-white">
+                          <div className="h-full w-full px-2 py-8 space-y-4 bg-white">
                             <img
                               className="h-full w-full object-contain"
                               src="https://res.cloudinary.com/juancodev/image/upload/v1690993112/children_robot_one_kmenwp.png"
                               alt=""
                             />
                           </div>
-                          <div className="flex flex-col items-center justify-center gap-6 px-2 py-8 dark:bg-gray-800">
+                          <div className="h-full flex flex-col items-center justify-center gap-6 px-2 py-8 dark:bg-gray-800">
                             <h3 className="mb-3 text-2xl font-bold">
                               Modalidad Online
                             </h3>
@@ -66,14 +66,14 @@ const Modality = () => {
                           </div>
                         </div>
                         <div className="flex flex-col overflow-hidden  rounded-md hover:-translate-y-6 hover:duration-500">
-                          <div className="h-1/2 w-full px-2 py-8 space-y-4 dark:bg-white">
+                          <div className="h-full w-full px-2 py-8 space-y-4 dark:bg-white">
                             <img
                               className="h-full w-full object-contain"
                               src="https://res.cloudinary.com/juancodev/image/upload/v1690992878/children_robot_dyhvjj.png"
                               alt=""
                             />
                           </div>
-                          <div className="flex flex-col items-center justify-center gap-6 px-2 py-8 dark:bg-gray-800 full-screen:gap-9">
+                          <div className="h-full flex flex-col items-center justify-center gap-6 px-2 py-8 dark:bg-gray-800 full-screen:gap-9">
                             <h3 className="mb-3 text-2xl font-bold">
                               Colegios Aliados
                             </h3>
