@@ -1,7 +1,4 @@
 import student from "../../assets/student.jpg";
-import company from "../../assets/company.jpg";
-import freelance from "../../assets/freelance.jpg";
-import professional from "../../assets/professional.jpg";
 import "./ProfileStyle.css";
 
 const ProfileSection = () => {
@@ -9,24 +6,18 @@ const ProfileSection = () => {
     <>
       <section className="mt-20">
         <div className="max-w-full mx-auto">
-          <div className="rounded-tl-[100px] bg-neutral-100">
+          <div className="rounded-tl-[100px] bg-gradient-to-t from-blue-700 via-[#0072ce] to-blue-400">
             <div className="mx-14 px-6">
               <div className="pt-20 pb-20">
                 <div className="mx-auto relative text-left text-slate-800">
-                  <div className="mb-20 max-w-3xl">
-                    <h2 className="text-4xl text-slate-800 font-bold mb-4">
+                  <div className="mb-20 max-w-2xl">
+                    <h2 className="text-5xl text-white font-bold mb-4">
                       Las etapas del programa ¿En cuál se encuentra tu hij@?
                     </h2>
-                    <p className="text-lg text-slate-700 font-light mb-8">
-                      Miles de estudiantes, profesionales y emprendedores se han
-                      preparado con nuestros cursos y mejoraron sus ingresos,
-                      consiguieron su primer trabajo o crearon su propio
-                      negocio. ¡Sigues tú!
-                    </p>
                   </div>
-                  <div className="grid-profile grid grid-cols-2 gap-x-6 gap-y-8">
+                  <div className="grid-profile flex flex-col gap-x-6 gap-y-8 mx-10">
                     <div className="flex">
-                      <article className="grid grid-cols-2 grid-rows-1 h-full bg-[#0072ce] rounded-xl">
+                      <article className="grid grid-cols-2 h-full bg-slate-800 rounded-xl">
                         <div>
                           <img
                             className="h-full w-full object-cover rounded-l-lg"
@@ -34,78 +25,90 @@ const ProfileSection = () => {
                             alt=""
                           />
                         </div>
-                        <div className="content p-6">
-                          <h3 className="mb-4 text-white text-xl font-bold">
-                            Estudiantes
-                          </h3>
-                          <p className="text-white text-sm font-normal text-slate-700">
-                            Quienes al egresar de bachillerato quieren realizar
-                            una carrera técnica corta que les permita insertarse
-                            en el mercado laboral de la manera más rápida y
-                            mejores pagadas.
+                        <div className="content p-8 flex flex-col gap-14">
+                          <div>
+                            <h3 className="mb-4 text-white text-3xl text-center font-bold">
+                              Educación Inicial
+                            </h3>
+                            <p className="text-white text-md text-center font-normal text-slate-700">
+                              Abarca de los 4 hasta los 6 años.
+                            </p>
+                          </div>
+                          <p className="text-white text-lg text-center font-normal text-slate-700">
+                            Solo en modalidad presencial en Colegios Aliados.
                           </p>
                         </div>
                       </article>
                     </div>
                     <div className="flex">
-                      <article className="grid grid-cols-2 grid-rows-1 h-full bg-[#0072ce] rounded-xl">
-                        <div>
+                      <article className="grid grid-cols-2 h-full bg-slate-800 rounded-xl">
+                        <div className="content content p-8 flex flex-col gap-14">
+                          <div>
+                            <h3 className="mb-4 text-white text-3xl text-center font-bold">
+                              Básica Baja
+                            </h3>
+                            <p className="text-white text-md text-center font-normal text-slate-700">
+                              Abarca de los 6 hasta los 9 años.
+                            </p>
+                          </div>
+                          <p className="text-white text-lg text-center font-normal text-slate-700">
+                            Solo en modalidad presencial en Colegios Aliados.
+                          </p>
+                        </div>
+                        <div className="h-[inherit] w-[inherit]">
                           <img
-                            className="h-full w-full object-cover rounded-l-lg"
-                            src={company}
+                            className="h-full w-full object-center object-fill rounded-l-lg"
+                            src={student}
                             alt=""
                           />
                         </div>
-                        <div className="content p-6">
-                          <h3 className="mb-4 text-white text-xl font-bold">
-                            Empresas
-                          </h3>
-                          <p className="text-white text-sm font-normal text-slate-700">
-                            Grupos empresariales y comerciales que quieran
-                            ampliar la formación técnica profesional del
-                            personal.
+                      </article>
+                    </div>
+                    <div className="flex">
+                      <article className="grid grid-cols-2 h-full bg-slate-800 rounded-xl">
+                        <div className="h-[inherit]">
+                          <img
+                            className="h-full w-full object-center object-fill rounded-l-lg"
+                            src={student}
+                            alt=""
+                          />
+                        </div>
+                        <div className="content p-8 flex flex-col gap-14">
+                          <div>
+                            <h3 className="mb-4 text-white text-3xl text-center font-bold">
+                              Básica Alta
+                            </h3>
+                            <p className="text-white text-md text-center font-normal text-slate-700">
+                              Abarca de los 9 hasta los 12 años.
+                            </p>
+                          </div>
+                          <p className="text-white text-lg text-center font-normal text-slate-700">
+                            Disponible en todas las modalidades.
                           </p>
                         </div>
                       </article>
                     </div>
                     <div className="flex">
-                      <article className="grid grid-cols-2 grid-rows-1 h-full bg-[#0072ce] rounded-xl">
-                        <div>
-                          <img
-                            className="h-full w-full object-cover rounded-l-lg"
-                            src={professional}
-                            alt=""
-                          />
-                        </div>
-                        <div className="content p-6">
-                          <h3 className="mb-4 text-white text-white text-xl font-bold">
-                            Profesionales
-                          </h3>
-                          <p className="text-white text-white text-sm font-normal text-slate-700">
-                            Quienes desean desarrollar una carrera técnica que
-                            complete su formación universitaria y permita
-                            ampliar las oportunidades labores y emprendimiento.
+                      <article className="grid grid-cols-2 h-full bg-slate-800 rounded-xl">
+                        <div className="content p-8 flex flex-col gap-14">
+                          <div>
+                            <h3 className="mb-4 text-white text-3xl text-center font-bold">
+                              Programador Jr
+                            </h3>
+                            <p className="text-white text-md text-center font-normal text-slate-700">
+                              Abarca de los 12 hasta los 15 años.
+                            </p>
+                          </div>
+                          <p className="text-white text-lg text-center font-normal text-slate-700">
+                            Disponibles en todas las modalidades.
                           </p>
                         </div>
-                      </article>
-                    </div>
-                    <div className="flex">
-                      <article className="grid grid-cols-2 grid-rows-1 h-full bg-[#0072ce] rounded-xl">
-                        <div>
+                        <div className="h-[inherit]">
                           <img
-                            className="h-full w-full object-cover rounded-l-lg"
-                            src={freelance}
+                            className="h-full w-full object-fill rounded-l-lg"
+                            src={student}
                             alt=""
                           />
-                        </div>
-                        <div className="content p-6">
-                          <h3 className="mb-4 text-white text-xl font-bold">
-                            Freelancer
-                          </h3>
-                          <p className="text-white text-sm font-normal text-slate-700">
-                            Adquiere los conocimientos para que tu negocio
-                            despegue. ¡Dale el mejor servicio a tus clientes!
-                          </p>
                         </div>
                       </article>
                     </div>
