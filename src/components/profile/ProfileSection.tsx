@@ -1,7 +1,14 @@
-import student from "../../assets/student.jpg";
+import { useEffect } from "react";
+import AOS from "aos";
+import student from "@assets/student.jpg";
+import "aos/dist/aos.css";
 import "./ProfileStyle.css";
 
 const ProfileSection = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
     <>
       <section className="mt-20">
@@ -16,7 +23,7 @@ const ProfileSection = () => {
                     </h2>
                   </div>
                   <div className="grid-profile flex flex-col gap-x-6 gap-y-8 mx-10">
-                    <div className="flex">
+                    <div className="flex" data-aos="fade-right">
                       <article className="grid grid-cols-2 h-full bg-slate-800 rounded-xl">
                         <div>
                           <img
@@ -40,7 +47,7 @@ const ProfileSection = () => {
                         </div>
                       </article>
                     </div>
-                    <div className="flex">
+                    <div className="flex" data-aos="fade-left">
                       <article className="grid grid-cols-2 h-full bg-slate-800 rounded-xl">
                         <div className="content content p-8 flex flex-col gap-14">
                           <div>
@@ -57,14 +64,14 @@ const ProfileSection = () => {
                         </div>
                         <div className="h-[inherit] w-[inherit]">
                           <img
-                            className="h-full w-full object-center object-fill rounded-l-lg"
+                            className="h-full w-full object-center object-fill rounded-r-lg"
                             src={student}
                             alt=""
                           />
                         </div>
                       </article>
                     </div>
-                    <div className="flex">
+                    <div className="flex" data-aos="fade-right">
                       <article className="grid grid-cols-2 h-full bg-slate-800 rounded-xl">
                         <div className="h-[inherit]">
                           <img
@@ -88,7 +95,7 @@ const ProfileSection = () => {
                         </div>
                       </article>
                     </div>
-                    <div className="flex">
+                    <div className="flex" data-aos="fade-left">
                       <article className="grid grid-cols-2 h-full bg-slate-800 rounded-xl">
                         <div className="content p-8 flex flex-col gap-14">
                           <div>
@@ -105,7 +112,7 @@ const ProfileSection = () => {
                         </div>
                         <div className="h-[inherit]">
                           <img
-                            className="h-full w-full object-fill rounded-l-lg"
+                            className="h-full w-full object-fill rounded-r-lg"
                             src={student}
                             alt=""
                           />

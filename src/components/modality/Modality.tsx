@@ -26,7 +26,7 @@ const Modality = () => {
                   <section className="py-6">
                     <div className="container p-4 mx-auto sm:p-10">
                       <div className="grid max-w-md grid-cols-1 gap-6 mx-auto auto-rows-fr lg:grid-cols-3 lg:max-w-full">
-                        <div className="flex flex-col overflow-hidden rounded-md hover:-translate-y-6 hover:duration-500">
+                        <div className="flex flex-col overflow-hidden rounded-md hover:-translate-y-6 hover:duration-500 hover:text-[#0072ce] hover:duration-300">
                           <div className="h-1/2 w-full px-2 py-8 space-y-4 bg-white">
                             <img
                               className="h-full w-full object-contain"
@@ -35,17 +35,17 @@ const Modality = () => {
                             />
                           </div>
                           <div className="h-full flex flex-col items-center justify-center gap-12 px-2 py-8 dark:bg-slate-800">
-                            <h3 className="mb-3 text-2xl font-bold text-[#0072ce]">
+                            <h3 className="mb-3 text-2xl font-bold">
                               Modalidad Presencial
                             </h3>
-                            <p className="px-4 text-center">
+                            <p className="px-4 text-center text-white">
                               Directamente en nuestro Campus en Los Palos
                               Grandes, Caracas.
                             </p>
                             <BtnHero title="Más información" />
                           </div>
                         </div>
-                        <div className="flex flex-col overflow-hidden rounded-md hover:-translate-y-6 hover:duration-500">
+                        <div className="flex flex-col overflow-hidden rounded-md hover:-translate-y-6 hover:duration-500 hover:text-[#0072ce] hover:duration-300">
                           <div className="h-full w-full px-2 py-8 space-y-4 bg-white">
                             <img
                               className="h-full w-full object-contain"
@@ -57,7 +57,7 @@ const Modality = () => {
                             <h3 className="mb-3 text-2xl font-bold">
                               Modalidad Online
                             </h3>
-                            <p className="px-4 text-center">
+                            <p className="px-4 text-center text-white">
                               Desde cualquier lugar del mundo con acceso a
                               internet, todas las semana tendrá sesiones en vivo
                               con un profesor a través de EDTplus
@@ -65,7 +65,7 @@ const Modality = () => {
                             <BtnHero title="Más información" />
                           </div>
                         </div>
-                        <div className="flex flex-col overflow-hidden  rounded-md hover:-translate-y-6 hover:duration-500">
+                        <div className="flex flex-col overflow-hidden  rounded-md hover:-translate-y-6 hover:duration-500 hover:text-[#0072ce] hover:duration-300">
                           <div className="h-full w-full px-2 py-8 space-y-4 dark:bg-white">
                             <img
                               className="h-full w-full object-contain"
@@ -77,7 +77,7 @@ const Modality = () => {
                             <h3 className="mb-3 text-2xl font-bold">
                               Colegios Aliados
                             </h3>
-                            <p className="px-4 text-center">
+                            <p className="px-4 text-center text-white">
                               La mejor manera. Forma parte integral de su
                               proceso de aprendizaje y socialización al
                               incorporar como una materia más.
