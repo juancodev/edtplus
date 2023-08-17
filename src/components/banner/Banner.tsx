@@ -6,10 +6,10 @@ const Banner = () => {
     <>
       <section>
         <div className="methodology-container">
-          <div className="items-container mx-14 py-4">
-            <div className="pt-5 pb-5">
+          <div className="items-container mx-14 py-4 max-md:mx-7">
+            <div className="py-5 max-md:py-0">
               <div className="mb-1 max-w-1xl">
-                <div className="items-grid grid grid-cols-2 gap-0">
+                <div className="items-grid grid grid-cols-2 gap-0 max-md:grid-cols-1 max-md:auto-rows-auto">
                   <div className="floating">
                     <img
                       className="h-full"
@@ -18,7 +18,7 @@ const Banner = () => {
                     />
                   </div>
                   <div className="flex flex-col justify-center items-center">
-                    <h2 className="text-3xl font-semibold text-center mb-9 text-slate-800">
+                    <h2 className="text-3xl font-bold text-center mb-9 text-slate-800 max-md:text-2xl">
                       ¡Pon a volar la imaginación de tus hijos!
                     </h2>
                     <BtnHero title="Regístrate Gratis" />

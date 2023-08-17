@@ -18,14 +18,18 @@ const Methodology = () => {
                       loop
                     ></video>
                   </div>
-                  <div className="w-full">
+                  <div className="w-full max-sm:w-full max-md:w-[85%]">
                     <h2 className="text-3xl font-bold mb-4 text-slate-800 text-center max-md:mt-2">
                       A tus hijos les encantará
                     </h2>
                     <div className="h-full grid grid-rows-3 items-center">
                       <div className="flex px-9 items-center max-md:flex-col max-md:px-0 max-md:text-center">
-                        <div className="image w-1/3 mt-[-10px] self-start max-md:self-center max-md:w-[15%]">
-                          <img src={logo} alt="" width={50} height={50} />
+                        <div className="image w-1/3 mt-[-10px] self-start max-md:self-center max-md:w-[20%]">
+                          <img
+                            className="max-md:w-full h-full"
+                            src={logo}
+                            alt="logo-edtplus"
+                          />
                         </div>
                         <div>
                           <h4 className="text-xl font-bold mb-1 text-slate-700 max-md:mb-2.5">
@@ -40,8 +44,12 @@ const Methodology = () => {
                         </div>
                       </div>
                       <div className="flex px-9 items-center max-md:flex-col max-md:px-0 max-md:text-center">
-                        <div className="image w-1/5 mt-[-10px] self-start max-md:self-center max-md:w-[15%]">
-                          <img src={logo} alt="" width={50} height={50} />
+                        <div className="image w-1/5 mt-[-10px] self-start max-md:self-center max-md:w-[20%]">
+                          <img
+                            className="max-md:w-full h-full"
+                            src={logo}
+                            alt="logo-edtplus"
+                          />
                         </div>
                         <div>
                           <h4 className="text-xl font-bold mb-1 text-slate-700 max-md:mb-2.5">
@@ -54,8 +62,12 @@ const Methodology = () => {
                         </div>
                       </div>
                       <div className="flex px-9 items-center max-md:flex-col max-md:px-0 max-md:text-center">
-                        <div className="image w-1/5 mt-[-10px] self-start max-md:self-center max-md:w-[15%]">
-                          <img src={logo} alt="" width={50} height={50} />
+                        <div className="image w-1/5 mt-[-10px] self-start max-md:self-center max-md:w-[20%]">
+                          <img
+                            className="max-md:w-full h-full"
+                            src={logo}
+                            alt="logo-edtplus"
+                          />
                         </div>
                         <div>
                           <h4 className="text-xl font-bold mb-1 text-slate-700 max-md:mb-2.5">
