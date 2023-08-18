@@ -1,7 +1,14 @@
+import { useEffect } from "react";
+import AOS from "aos";
 import logo from "@assets/ICONO-EDTplus.png";
 import edtplusSteam from "@assets/steam-edtecnica.mp4";
+import "aos/dist/aos.css";
 
 const Methodology = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
     <>
       <section>
@@ -18,7 +25,10 @@ const Methodology = () => {
                       loop
                     ></video>
                   </div>
-                  <div className="w-full max-sm:w-full max-md:w-[85%]">
+                  <div
+                    className="w-full max-sm:w-full max-md:w-[85%]"
+                    data-aos="fade-up"
+                  >
                     <h2 className="text-3xl font-bold mb-4 text-slate-800 text-center max-md:mt-2">
                       A tus hijos les encantará
                     </h2>

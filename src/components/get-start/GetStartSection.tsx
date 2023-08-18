@@ -1,13 +1,23 @@
+import { useEffect } from "react";
+import AOS from "aos";
 import { BtnHero } from "../button/ButtonPrimary";
+import "aos/dist/aos.css";
 
 const GetStartSection = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
     <>
       <section className="relative">
         <div className="bg-slate-800 inset-0">
           <div className="mx-14 max-w-full px-6 max-md:mx-7 max-md:px-3">
             <div className="py-20 max-md:py-10">
-              <div className="flex justify-between items-center max-md:flex-col max-md:gap-4">
+              <div
+                className="flex justify-between items-center max-md:flex-col max-md:gap-4"
+                data-aos="fade-up"
+              >
                 <div className="text-left mr-16 mb-0 max-md:text-center max-md:mr-0">
                   <p className="font-medium text-xl mb-3 text-[#0072ce]">
                     ¿Qué estas esperando?

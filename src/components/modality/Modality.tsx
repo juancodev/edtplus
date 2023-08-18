@@ -1,6 +1,13 @@
+import { useEffect } from "react";
+import AOS from "aos";
 import { BtnHero } from "../button/ButtonPrimary";
+import "aos/dist/aos.css";
 
 const Modality = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
     <>
       <section>
@@ -18,9 +25,12 @@ const Modality = () => {
           <div className="rounded-tr-[100px] bg-gradient-to-b from-blue-700 via-[#0072ce] to-blue-400 max-md:w-full">
             <div className="mx-14 px-6 max-md:mx-7 max-md:px-3">
               <div className="pt-20 pb-20 max-md:pt-10 max-md:pb-10">
-                <div className="mx-auto relative text-left text-white">
+                <div
+                  className="mx-auto relative text-left text-white"
+                  data-aos="fade-up"
+                >
                   <div className="mb-20 max-w-2xl max-md:mb-8 max-md:max-w-lg">
-                    <h2 className="text-4xl font-bold mb-4">¿Cómo Funciona?</h2>
+                    <h2 className="text-6xl font-bold mb-4">¿Cómo Funciona?</h2>
                   </div>
 
                   <section className="py-6 max-md:py-3">

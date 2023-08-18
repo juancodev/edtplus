@@ -3,7 +3,7 @@ import logo from "@assets/EDTPLUS.png";
 const Header = () => {
   return (
     <>
-      <header className="header-container full-screen:w-full max-w-6xl mx-14 my-6 absolute z-30 max-lg:w-[90%]">
+      <header className="header-container full-screen:w-full max-w-6xl mx-14 my-6 absolute z-30 max-lg:w-[85%]">
         <div className="flex items-center justify-between px-6 max-md:justify-center">
           <div className="logo">
             <a href="#">

@@ -26,17 +26,17 @@ const Hero = () => {
                     <BtnHero title="Regístrate Gratis" />
                   </div>
                 </div>
-                <div className="image mx-auto absolute left-[650px] full-screen:left-[750px] max-md:hidden">
-                  <div className="relative mx-auto">
+                <div className="image mx-auto absolute md:max-lg:left-[333px] md:max-lg:w-[500px] md:max-lg:h-[500px] right-0 full-screen:left-[750px] max-md:hidden">
+                  <div className="relative mx-auto md:max-lg:bottom-[60px]">
                     <img
-                      className="absolute bottom-[30%] z-10 mix-blend-lighten"
+                      className="absolute bottom-[30%] z-10 mix-blend-lighten md:max-lg:bottom-0"
                       src={ilustratorImg}
                       alt=""
                       width={600}
                       height={400}
                     />
                     <img
-                      className="relative bottom-[165px] z-20"
+                      className="relative bottom-[165px] z-20 md:max-lg:bottom-0"
                       src="https://res.cloudinary.com/juancodev/image/upload/v1690993030/hero_hvwdbu.png"
                       alt=""
                       width={600}

@@ -1,14 +1,21 @@
+import { useEffect } from "react";
+import AOS from "aos";
 import { BtnHero } from "../button/ButtonPrimary";
 import "./Banner.css";
+import "aos/dist/aos.css";
 
 const Banner = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
     <>
       <section>
         <div className="methodology-container">
           <div className="items-container mx-14 py-4 max-md:mx-7">
             <div className="py-5 max-md:py-0">
-              <div className="mb-1 max-w-1xl">
+              <div className="mb-1 max-w-1xl" data-aos="fade-up">
                 <div className="items-grid grid grid-cols-2 gap-0 max-md:grid-cols-1 max-md:auto-rows-auto">
                   <div className="floating">
                     <img
